@@ -4,6 +4,54 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #ebebeb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: "Vazirmatn", sans-serif;
+}
+
+.display-none {
+  display: none;
+}
+
 .category-container {
   display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #5d0085;
+  width: 700px;
+  height: 300px;
+  border-radius: 15px;
+  margin: auto;
+  box-shadow: 0px 0px 6px 2px #969696;
+}
+
+.item {
+  background-color: aliceblue;
+  border-radius: 5px;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: #5d0085;
+  width: 700px;
+  height: 500px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 6px 2px #969696;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
