@@ -1,3 +1,5 @@
+/* style.css */
+
 * {
   margin: 0;
   padding: 0;
@@ -63,4 +65,30 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+}
+
+/* Add a media query for mobile devices */
+@media (max-width: 767px) {
+  .category-container {
+    flex-direction: column;
+    width: 90%;
+    max-width: 400px;
+    height: auto;
+  }
+
+  .item {
+    margin-bottom: 10px;
+  }
+
+  .main-container {
+    width: 90%;
+    max-width: 400px;
+    height: auto;
+  }
+
+  .row {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
 }
